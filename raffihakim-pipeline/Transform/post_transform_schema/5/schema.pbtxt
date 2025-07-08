@@ -1,5 +1,5 @@
 feature {
-  name: "age"
+  name: "age_xf"
   type: FLOAT
   presence {
     min_fraction: 1.0
@@ -11,7 +11,7 @@ feature {
   }
 }
 feature {
-  name: "attendance_percentage"
+  name: "attendance_percentage_xf"
   type: FLOAT
   presence {
     min_fraction: 1.0
@@ -23,7 +23,7 @@ feature {
   }
 }
 feature {
-  name: "exam_score"
+  name: "exam_score_xf"
   type: FLOAT
   presence {
     min_fraction: 1.0
@@ -35,7 +35,7 @@ feature {
   }
 }
 feature {
-  name: "exercise_frequency"
+  name: "exercise_frequency_xf"
   type: FLOAT
   presence {
     min_fraction: 1.0
@@ -47,7 +47,7 @@ feature {
   }
 }
 feature {
-  name: "mental_health_rating"
+  name: "mental_health_rating_xf"
   type: FLOAT
   presence {
     min_fraction: 1.0
@@ -59,7 +59,7 @@ feature {
   }
 }
 feature {
-  name: "netflix_hours"
+  name: "netflix_hours_xf"
   type: FLOAT
   presence {
     min_fraction: 1.0
@@ -71,7 +71,7 @@ feature {
   }
 }
 feature {
-  name: "sleep_hours"
+  name: "sleep_hours_xf"
   type: FLOAT
   presence {
     min_fraction: 1.0
@@ -83,7 +83,7 @@ feature {
   }
 }
 feature {
-  name: "social_media_hours"
+  name: "social_media_hours_xf"
   type: FLOAT
   presence {
     min_fraction: 1.0
@@ -95,7 +95,7 @@ feature {
   }
 }
 feature {
-  name: "study_hours_per_day"
+  name: "study_hours_per_day_xf"
   type: FLOAT
   presence {
     min_fraction: 1.0
