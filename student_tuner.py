@@ -44,8 +44,6 @@ def tuner_fn(fn_args: FnArgs) -> TunerFnResult:
         project_name="student_performance_tuning"
     )
     
-    # --- PERBAIKAN KUNCI ADA DI SINI ---
-    # Gunakan fn_args.transform_graph_path yang berisi path langsung
     tf_transform_output = tft.TFTransformOutput(fn_args.transform_graph_path)
     # ------------------------------------
     

@@ -1,8 +1,8 @@
 import tensorflow as tf
 
 NUMERIC_FEATURES = [
-    'age', 'study_hours_per_day', 'social_media_hours', 'netflix_hours',
-    'attendance_percentage', 'sleep_hours', 'mental_health_rating', 'exercise_frequency'
+    'study_hours_per_day', 'social_media_hours', 'netflix_hours',
+    'sleep_hours', 'mental_health_rating', 'exercise_frequency'
 ]
 LABEL_KEY = 'exam_score'
 

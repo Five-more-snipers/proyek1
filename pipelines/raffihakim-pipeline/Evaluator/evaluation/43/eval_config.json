@@ -1,0 +1,43 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "labelKey": "exam_score_xf"
+      }
+    ],
+    "slicingSpecs": [
+      {}
+    ],
+    "metricsSpecs": [
+      {
+        "metrics": [
+          {
+            "className": "ExampleCount"
+          },
+          {
+            "className": "MeanSquaredError"
+          },
+          {
+            "className": "RootMeanSquaredError"
+          }
+        ],
+        "modelNames": [
+          ""
+        ],
+        "thresholds": {
+          "root_mean_squared_error": {
+            "valueThreshold": {
+              "upperBound": 8.0
+            }
+          }
+        }
+      }
+    ]
+  },
+  "version": "0.46.0",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "": "pipelines/raffihakim-pipeline/Trainer/model/41/Format-Serving"
+  }
+}
